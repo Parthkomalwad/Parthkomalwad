@@ -1,21 +1,110 @@
-# 💫About Me :
-👋 Hey there! I'm  Parth Komalwad, a seasoned software engineer deeply passionate about blockchain technology. 
-Currently, I'm immersed in crafting a complete blockchain from scratch, showcasing my expertise in the field. 
-With a background in software engineering and a specialization in web3 development, I'm excited about leveraging my skills to contribute to groundbreaking blockchain projects. 
-Eager to collaborate and innovate in the realm of decentralized technologies, my ultimate goal is to evolve into a proficient blockchain developer, driving the future of decentralized systems with my knowledge and dedication.
+<div align="center">
 
-## 🌐Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/parth-komalwad-b482a71b0/) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/https://twitter.com/KomalwadParth) 
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0b0f1a,50:0f172a,100:1e1b4b&height=260&section=header&text=PARTH%20KOMALWAD&fontSize=54&fontColor=e2e8f0&animation=twinkling&fontAlignY=42&desc=SENIOR%20AI%20ENGINEER&descAlignY=62&descSize=20&stroke=38bdf8&strokeWidth=1" width="100%"/>
 
-# 💻Tech Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat&logo=go&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=flat&logo=solidity&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=flat&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) 	![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-# 📊GitHub Stats :
-![](https://github-readme-stats.vercel.app/api?username=ParthKomalwad&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=ParthKomalwad&theme=tokyonight&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ParthKomalwad&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Agentic+AI+%E2%80%A2+Multi-Agent+Orchestration;Retrieval-Augmented+Generation+%E2%80%A2+GraphRAG;NL2SQL+%E2%80%A2+LLM+Fine-tuning+%E2%80%A2+MCP;Shipping+Generative+AI+to+production" alt="typing"/>
 
-### ✍️Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<br/><br/>
 
----
-[![](https://visitcount.itsvg.in/api?id=ParthKomalwad&icon=2&color=0)](https://visitcount.itsvg.in)
+<a href="https://www.linkedin.com/in/parth-komalwad-b482a71b0/"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=38bdf8" /></a>&nbsp;
+<a href="mailto:pkomalwad@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=38bdf8" /></a>&nbsp;
+<a href="https://twitter.com/KomalwadParth"><img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=38bdf8" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+```text
+I design and ship production Generative AI systems.
+Agents that do real work. Retrieval that stays grounded. Data platforms built for LLMs.
+```
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+<h3>🤖</h3>
+<b>Agentic Systems</b><br/>
+<sub>Multi-agent orchestration, handoffs, structured outputs, MCP</sub>
+</td>
+<td align="center" width="25%">
+<h3>🔎</h3>
+<b>Retrieval</b><br/>
+<sub>RAG, GraphRAG, vector search, semantic layers</sub>
+</td>
+<td align="center" width="25%">
+<h3>🧬</h3>
+<b>Models</b><br/>
+<sub>Llama 3 fine-tuning, NL2SQL, prompt engineering</sub>
+</td>
+<td align="center" width="25%">
+<h3>☁️</h3>
+<b>Platform</b><br/>
+<sub>Azure AI, Microsoft Fabric, Docker, air-gapped deploys</sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### ⚡ Stack
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,nodejs,ts,react,tailwind,graphql&theme=dark&perline=8" /><br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,neo4j,azure,aws,docker,nginx&theme=dark&perline=8" /><br/>
+<img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,electron,wasm,vscode,bash&theme=dark&perline=8" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/LangChain-0f172a?style=flat-square&logo=langchain&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Anthropic-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/OpenAI-0f172a?style=flat-square&logo=openai&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Ollama-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/pgvector-0f172a?style=flat-square&logo=postgresql&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/DuckDB-0f172a?style=flat-square&logo=duckdb&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Parquet-0f172a?style=flat-square&logo=apacheparquet&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Microsoft_Fabric-0f172a?style=flat-square&logo=microsoft&logoColor=38bdf8" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 🛰️ Currently Building
+
+<a href="https://github.com/Parthkomalwad/Agentic_OS">
+<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=Parthkomalwad&repo=Agentic_OS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 📡 Activity
+
+<img src="https://github-readme-stats.hackclub.dev/api?username=Parthkomalwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&include_all_commits=true&count_private=true" height="160"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Parthkomalwad&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" height="160"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Anthropic-MCP_Certified-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Neo4j-Certified_Professional-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
+
+</div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1e1b4b,50:0f172a,100:0b0f1a&height=120&section=footer" width="100%"/>
