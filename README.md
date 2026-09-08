@@ -32,7 +32,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <sub>Multi-agent orchestration, handoffs, structured outputs, MCP</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=neo4j&theme=dark" width="44"/><br/><br/>
+<img src="https://skillicons.dev/icons?i=elasticsearch&theme=dark" width="44"/><br/><br/>
 <b>Retrieval</b><br/>
 <sub>RAG, GraphRAG, vector search, semantic layers</sub>
 </td>
@@ -57,7 +57,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,nodejs,ts,react,tailwind,graphql&theme=dark&perline=8" /><br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,neo4j,azure,aws,docker,nginx&theme=dark&perline=8" /><br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,elasticsearch,azure,aws,docker,nginx&theme=dark&perline=8" /><br/>
 <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,electron,wasm,vscode,bash&theme=dark&perline=8" />
 
 <br/>
@@ -66,6 +66,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="https://img.shields.io/badge/Anthropic-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/OpenAI-0f172a?style=flat-square&logo=openai&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/Ollama-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Neo4j-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/pgvector-0f172a?style=flat-square&logo=postgresql&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/DuckDB-0f172a?style=flat-square&logo=duckdb&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/Parquet-0f172a?style=flat-square&logo=apacheparquet&logoColor=38bdf8" />
