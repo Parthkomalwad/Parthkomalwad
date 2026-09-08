@@ -10,11 +10,7 @@
 <a href="mailto:pkomalwad@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=38bdf8" /></a>&nbsp;
 <a href="https://twitter.com/KomalwadParth"><img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=38bdf8" /></a>
 
-</div>
-
-<br/>
-
-<div align="center">
+<br/><br/>
 
 ```text
 I design and ship production Generative AI systems.
@@ -23,42 +19,42 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 </div>
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=FOCUS&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+</div>
 
 <div align="center">
-
 <table>
 <tr>
 <td align="center" width="25%">
-<h3>🤖</h3>
+<img src="https://skillicons.dev/icons?i=python&theme=dark" width="44"/><br/><br/>
 <b>Agentic Systems</b><br/>
 <sub>Multi-agent orchestration, handoffs, structured outputs, MCP</sub>
 </td>
 <td align="center" width="25%">
-<h3>🔎</h3>
+<img src="https://skillicons.dev/icons?i=neo4j&theme=dark" width="44"/><br/><br/>
 <b>Retrieval</b><br/>
 <sub>RAG, GraphRAG, vector search, semantic layers</sub>
 </td>
 <td align="center" width="25%">
-<h3>🧬</h3>
+<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="44"/><br/><br/>
 <b>Models</b><br/>
 <sub>Llama 3 fine-tuning, NL2SQL, prompt engineering</sub>
 </td>
 <td align="center" width="25%">
-<h3>☁️</h3>
+<img src="https://skillicons.dev/icons?i=azure&theme=dark" width="44"/><br/><br/>
 <b>Platform</b><br/>
 <sub>Azure AI, Microsoft Fabric, Docker, air-gapped deploys</sub>
 </td>
 </tr>
 </table>
-
 </div>
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=STACK&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+</div>
 
 <div align="center">
-
-### ⚡ Stack
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,nodejs,ts,react,tailwind,graphql&theme=dark&perline=8" /><br/>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,neo4j,azure,aws,docker,nginx&theme=dark&perline=8" /><br/>
@@ -77,26 +73,32 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 </div>
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=CURRENTLY%20BUILDING&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+</div>
 
 <div align="center">
-
-### 🛰️ Currently Building
-
 <a href="https://github.com/Parthkomalwad/Agentic_OS">
 <img src="https://github-readme-stats.hackclub.dev/api/pin/?username=Parthkomalwad&repo=Agentic_OS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" />
 </a>
-
 </div>
 
-<br/>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=ACTIVITY&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+</div>
 
 <div align="center">
 
-### 📡 Activity
-
 <img src="https://github-readme-stats.hackclub.dev/api?username=Parthkomalwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&include_all_commits=true&count_private=true" height="160"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Parthkomalwad&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" height="160"/>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Parthkomalwad/Parthkomalwad/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Parthkomalwad/Parthkomalwad/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Parthkomalwad/Parthkomalwad/output/github-snake-dark.svg" width="100%" />
+</picture>
 
 <br/><br/>
 
