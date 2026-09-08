@@ -80,7 +80,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 <div align="center">
 <a href="https://github.com/Parthkomalwad/Agentic_OS">
-<img src="https://github-readme-stats.hackclub.dev/api/pin/?username=Parthkomalwad&repo=Agentic_OS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Agentic_OS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" />
 </a>
 </div>
 
@@ -90,7 +90,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 <div align="center">
 
-<img src="https://github-readme-stats.hackclub.dev/api?username=Parthkomalwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&include_all_commits=true&count_private=true" height="160"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Parthkomalwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&include_all_commits=true&count_private=true" height="160"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Parthkomalwad&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" height="160"/>
 
 <br/><br/>
