@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0b0f1a,50:0f172a,100:1e1b4b&height=260&section=header&text=PARTH%20KOMALWAD&fontSize=54&fontColor=e2e8f0&animation=twinkling&fontAlignY=42&desc=SENIOR%20AI%20ENGINEER&descAlignY=62&descSize=20&stroke=38bdf8&strokeWidth=1" width="100%"/>
+<img src="assets/hero.svg" width="100%" alt="Parth Komalwad, Senior AI Engineer"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Agentic+AI+%E2%80%A2+Multi-Agent+Orchestration;Retrieval-Augmented+Generation+%E2%80%A2+GraphRAG;NL2SQL+%E2%80%A2+LLM+Fine-tuning+%E2%80%A2+MCP;Shipping+Generative+AI+to+production" alt="typing"/>
 
@@ -18,6 +18,8 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 ```
 
 </div>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=transparent&text=FOCUS&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
@@ -50,6 +52,8 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 </table>
 </div>
 
+<img src="assets/divider.svg" width="100%" alt=""/>
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=transparent&text=STACK&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
 </div>
@@ -74,15 +78,34 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 </div>
 
+<img src="assets/divider.svg" width="100%" alt=""/>
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=transparent&text=CURRENTLY%20BUILDING&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
 </div>
 
 <div align="center">
-<a href="https://github.com/Parthkomalwad/Agentic_OS">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Agentic_OS&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" />
+
+<a href="https://github.com/Parthkomalwad/Sable"><img src="https://raw.githubusercontent.com/Parthkomalwad/Sable/main/docs/assets/sable-mark.svg" width="260" alt="Sable"/></a>
+
+<sub><b>The shell that asks first.</b> SSH in, type English. Sable plans the work, previews every command, gates anything destructive behind a typed YES, hands long jobs to sandboxed sub-agents, and turns repeated work into reusable skills.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/Parthkomalwad/Sable">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Sable&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Sable"/>
 </a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python_3.11+-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Ollama_·_OpenAI_·_Anthropic-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/MIT-0f172a?style=flat-square&logo=opensourceinitiative&logoColor=38bdf8" />
+
 </div>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=transparent&text=ACTIVITY&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
@@ -99,6 +122,14 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Parthkomalwad/Parthkomalwad/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Parthkomalwad/Parthkomalwad/output/github-snake.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Parthkomalwad/Parthkomalwad/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D contribution graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 </picture>
 
 <br/><br/>

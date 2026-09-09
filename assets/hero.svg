@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Parth Komalwad, Senior AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc">
+        <animate attributeName="stop-color" values="#7dd3fc;#a78bfa;#38bdf8;#7dd3fc" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#7dd3fc;#a78bfa;#38bdf8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#38bdf8" stroke-opacity="0.07"/>
+    </pattern>
+    <style>
+      .t{font:700 56px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:6px}
+      .s{font:500 18px 'JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:5px;fill:#94a3b8}
+      .n{fill:#38bdf8}
+      .e{stroke:#38bdf8;stroke-width:1.2;fill:none;stroke-opacity:0.55;stroke-dasharray:6 10}
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- drifting glows -->
+  <circle cx="200" cy="150" r="140" fill="url(#glow)" opacity="0.35" filter="url(#blur)">
+    <animate attributeName="cx" values="200;260;180;200" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="150" r="140" fill="url(#glow)" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="cx" values="1000;940;1030;1000" dur="16s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- left neural net -->
+  <g transform="translate(70,60)">
+    <path class="e" d="M20 40 L120 20 M20 40 L120 90 M20 40 L120 160 M20 110 L120 20 M20 110 L120 90 M20 110 L120 160 M20 170 L120 90 M20 170 L120 160 M120 20 L220 60 M120 90 L220 60 M120 160 L220 60 M120 20 L220 130 M120 90 L220 130 M120 160 L220 130">
+      <animate attributeName="stroke-dashoffset" from="64" to="0" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <g class="n">
+      <circle cx="20" cy="40" r="5"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="20" cy="110" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="20" cy="170" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="20" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="90" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="160" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <circle cx="220" cy="60" r="6" fill="#a78bfa"><animate attributeName="r" values="5;9;5" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="220" cy="130" r="6" fill="#a78bfa"><animate attributeName="r" values="5;9;5" dur="2s" begin="1.6s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- right neural net (mirrored) -->
+  <g transform="translate(1130,60) scale(-1,1)">
+    <path class="e" d="M20 40 L120 20 M20 40 L120 90 M20 40 L120 160 M20 110 L120 20 M20 110 L120 90 M20 110 L120 160 M20 170 L120 90 M20 170 L120 160 M120 20 L220 60 M120 90 L220 60 M120 160 L220 60 M120 20 L220 130 M120 90 L220 130 M120 160 L220 130">
+      <animate attributeName="stroke-dashoffset" from="64" to="0" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <g class="n">
+      <circle cx="20" cy="40" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="20" cy="110" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.7s" repeatCount="indefinite"/></circle>
+      <circle cx="20" cy="170" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="1.1s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="20" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="90" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="1.3s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="160" r="5"><animate attributeName="r" values="4;7;4" dur="2s" begin="1.7s" repeatCount="indefinite"/></circle>
+      <circle cx="220" cy="60" r="6" fill="#a78bfa"><animate attributeName="r" values="5;9;5" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="220" cy="130" r="6" fill="#a78bfa"><animate attributeName="r" values="5;9;5" dur="2s" begin="1.9s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="140" text-anchor="middle" class="t" fill="url(#txt)">
+    PARTH KOMALWAD
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+  </text>
+  <text x="600" y="185" text-anchor="middle" class="s">
+    SENIOR AI ENGINEER
+    <animate attributeName="opacity" values="0;0;1" dur="1.8s" fill="freeze"/>
+  </text>
+
+  <!-- scanning line -->
+  <rect x="380" y="205" width="440" height="1" fill="#38bdf8" opacity="0.35"/>
+  <rect x="380" y="204" width="80" height="3" fill="#7dd3fc" rx="1.5">
+    <animate attributeName="x" values="380;740;380" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ticker -->
+  <text x="600" y="245" text-anchor="middle" class="s" style="font-size:13px;letter-spacing:3px;fill:#64748b">
+    AGENTIC AI  ·  RAG  ·  NL2SQL  ·  LLM FINE-TUNING  ·  MCP
+    <animate attributeName="opacity" values="0;0;0;1" dur="2.4s" fill="freeze"/>
+  </text>
+</svg>
