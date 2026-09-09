@@ -2,8 +2,6 @@
 
 <img src="assets/hero.svg" width="100%" alt="Parth Komalwad, Senior AI Engineer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Agentic+AI+%E2%80%A2+Multi-Agent+Orchestration;Retrieval-Augmented+Generation+%E2%80%A2+GraphRAG;NL2SQL+%E2%80%A2+LLM+Fine-tuning+%E2%80%A2+MCP;Shipping+Generative+AI+to+production" alt="typing"/>
-
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/parth-komalwad-b482a71b0/"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=38bdf8" /></a>&nbsp;
@@ -141,4 +139,4 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1e1b4b,50:0f172a,100:0b0f1a&height=120&section=footer" width="100%"/>
+<img src="assets/divider.svg" width="100%" alt=""/>
