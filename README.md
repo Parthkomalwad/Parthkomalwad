@@ -79,27 +79,71 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=CURRENTLY%20BUILDING&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=PROJECTS&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
 </div>
 
 <div align="center">
 
-<a href="https://github.com/Parthkomalwad/Sable"><img src="https://raw.githubusercontent.com/Parthkomalwad/Sable/main/docs/assets/sable-mark.svg" width="260" alt="Sable"/></a>
-
-<sub><b>The shell that asks first.</b> SSH in, type English. Sable plans the work, previews every command, gates anything destructive behind a typed YES, hands long jobs to sandboxed sub-agents, and turns repeated work into reusable skills.</sub>
-
-<br/><br/>
+<table>
+<tr>
+<td align="center" width="50%">
 
 <a href="https://github.com/Parthkomalwad/Sable">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Sable&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Sable"/>
 </a>
 
-<br/>
+<b>The shell that asks first.</b><br/>
+<sub>SSH in and type English. Sable plans the work, previews every command, gates anything destructive behind a typed YES, hands long jobs to sandboxed sub-agents, and turns repeated work into reusable skills.</sub>
 
-<img src="https://img.shields.io/badge/Python_3.11+-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Ollama_·_OpenAI_·_Anthropic-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Ollama_%7C_OpenAI_%7C_Anthropic-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/MIT-0f172a?style=flat-square&logo=opensourceinitiative&logoColor=38bdf8" />
+
+</td>
+<td align="center" width="50%">
+
+<a href="https://github.com/Parthkomalwad/VeritasChain">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=VeritasChain&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="VeritasChain"/>
+</a>
+
+<b>Authenticate reality. Preserve truth.</b><br/>
+<sub>Decentralized media integrity on Ethereum and IPFS. Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet and timestamp. Tamper-proof provenance with no accounts and no file storage.</sub>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/React_19-0f172a?style=flat-square&logo=react&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/FastAPI-0f172a?style=flat-square&logo=fastapi&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Solidity-0f172a?style=flat-square&logo=solidity&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/IPFS-0f172a?style=flat-square&logo=ipfs&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Ethereum-0f172a?style=flat-square&logo=ethereum&logoColor=38bdf8" />
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+<a href="https://github.com/Parthkomalwad/Archon">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Archon&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Archon"/>
+</a>
+
+<b>Backups that verify themselves.</b><br/>
+<sub>Plug-and-play Docker sidecar for automated database backups. AES-256 encrypted, SHA-256 verified, across Postgres, MongoDB, MySQL and SQLite &mdash; with zero code changes to your app.</sub>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=flat-square&logo=postgresql&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/MongoDB-0f172a?style=flat-square&logo=mongodb&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/AES--256-0f172a?style=flat-square&logo=letsencrypt&logoColor=38bdf8" />
+
+</td>
+<td align="center" width="50%"><sub>&nbsp;</sub></td>
+</tr>
+</table>
 
 </div>
 
