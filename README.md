@@ -86,7 +86,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 <a href="https://github.com/Parthkomalwad/Sable">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Sable&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Sable"/>
@@ -103,7 +103,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="https://img.shields.io/badge/MIT-0f172a?style=flat-square&logo=opensourceinitiative&logoColor=38bdf8" />
 
 </td>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 <a href="https://github.com/Parthkomalwad/VeritasChain">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=VeritasChain&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="VeritasChain"/>
@@ -121,9 +121,7 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="https://img.shields.io/badge/Ethereum-0f172a?style=flat-square&logo=ethereum&logoColor=38bdf8" />
 
 </td>
-</tr>
-<tr>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
 <a href="https://github.com/Parthkomalwad/Archon">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Archon&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Archon"/>
@@ -141,7 +139,6 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="https://img.shields.io/badge/AES--256-0f172a?style=flat-square&logo=letsencrypt&logoColor=38bdf8" />
 
 </td>
-<td align="center" width="50%"><sub>&nbsp;</sub></td>
 </tr>
 </table>
 
