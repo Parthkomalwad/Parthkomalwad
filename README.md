@@ -79,38 +79,49 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=PROJECTS&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=CURRENTLY%20BUILDING&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
+</div>
+
+<div align="center">
+
+<a href="https://github.com/Parthkomalwad/Sable"><img src="https://raw.githubusercontent.com/Parthkomalwad/Sable/main/docs/assets/sable-mark.svg" width="260" alt="Sable"/></a>
+
+<b>The shell that asks first.</b>
+
+<sub>SSH in and type English. Sable plans the work, previews every command, gates anything<br/>destructive behind a typed YES, hands long jobs to sandboxed sub-agents,<br/>and turns repeated work into reusable skills.</sub>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Python_3.11+-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Ollama_%7C_OpenAI_%7C_Anthropic-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/MIT-0f172a?style=flat-square&logo=opensourceinitiative&logoColor=38bdf8" />
+
+<br/><br/>
+
+<a href="https://github.com/Parthkomalwad/Sable">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Sable&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Sable"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&text=ALSO%20BUILT&fontSize=20&fontColor=64748b&height=60&animation=fadeIn&fontAlignY=55" width="100%"/>
 </div>
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="33%">
-
-<a href="https://github.com/Parthkomalwad/Sable">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Sable&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Sable"/>
-</a>
-
-<b>The shell that asks first.</b><br/>
-<sub>SSH in and type English. Sable plans the work, previews every command, gates anything destructive behind a typed YES, hands long jobs to sandboxed sub-agents, and turns repeated work into reusable skills.</sub>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Ollama_%7C_OpenAI_%7C_Anthropic-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/MIT-0f172a?style=flat-square&logo=opensourceinitiative&logoColor=38bdf8" />
-
-</td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
 <a href="https://github.com/Parthkomalwad/VeritasChain">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=VeritasChain&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="VeritasChain"/>
 </a>
 
-<b>Authenticate reality. Preserve truth.</b><br/>
-<sub>Decentralized media integrity on Ethereum and IPFS. Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet and timestamp. Tamper-proof provenance with no accounts and no file storage.</sub>
+<sub>Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet and timestamp.<br/>Tamper-proof provenance, no accounts, no file storage.</sub>
 
 <br/><br/>
 
@@ -121,14 +132,13 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
 <img src="https://img.shields.io/badge/Ethereum-0f172a?style=flat-square&logo=ethereum&logoColor=38bdf8" />
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
 <a href="https://github.com/Parthkomalwad/Archon">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Archon&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Archon"/>
 </a>
 
-<b>Backups that verify themselves.</b><br/>
-<sub>Plug-and-play Docker sidecar for automated database backups. AES-256 encrypted, SHA-256 verified, across Postgres, MongoDB, MySQL and SQLite &mdash; with zero code changes to your app.</sub>
+<sub>Automated database backups as a drop-in Docker sidecar.<br/>AES-256 encrypted, SHA-256 verified, zero code changes to your app.</sub>
 
 <br/><br/>
 
