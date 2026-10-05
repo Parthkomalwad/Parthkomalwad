@@ -2,170 +2,76 @@
 
 <img src="assets/hero.svg" width="100%" alt="Parth Komalwad, Senior AI Engineer"/>
 
-<br/><br/>
-
+<a href="https://parthkomalwad.dev"><img src="https://img.shields.io/badge/parthkomalwad.dev-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=0f172a" /></a>&nbsp;
 <a href="https://www.linkedin.com/in/parth-komalwad-b482a71b0/"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=38bdf8" /></a>&nbsp;
 <a href="mailto:pkomalwad@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=38bdf8" /></a>&nbsp;
 <a href="https://twitter.com/KomalwadParth"><img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=38bdf8" /></a>
 
-<br/><br/>
-
-```text
-I design and ship production Generative AI systems.
-Agents that do real work. Retrieval that stays grounded. Data platforms built for LLMs.
-```
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=FOCUS&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
-</div>
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=python&theme=dark" width="44"/><br/><br/>
-<b>Agentic Systems</b><br/>
-<sub>Multi-agent orchestration, handoffs, structured outputs, MCP</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=elasticsearch&theme=dark" width="44"/><br/><br/>
-<b>Retrieval</b><br/>
-<sub>RAG, GraphRAG, vector search, semantic layers</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="44"/><br/><br/>
-<b>Models</b><br/>
-<sub>Llama 3 fine-tuning, NL2SQL, prompt engineering</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=azure&theme=dark" width="44"/><br/><br/>
-<b>Platform</b><br/>
-<sub>Azure AI, Microsoft Fabric, Docker, air-gapped deploys</sub>
-</td>
-</tr>
-</table>
-</div>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=STACK&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
-</div>
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,nodejs,ts,react,tailwind,graphql&theme=dark&perline=8" /><br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,elasticsearch,azure,aws,docker,nginx&theme=dark&perline=8" /><br/>
-<img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,electron,wasm,vscode,bash&theme=dark&perline=8" />
-
 <br/>
 
-<img src="https://img.shields.io/badge/LangChain-0f172a?style=flat-square&logo=langchain&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Anthropic-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/OpenAI-0f172a?style=flat-square&logo=openai&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Ollama-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Neo4j-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/pgvector-0f172a?style=flat-square&logo=postgresql&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/DuckDB-0f172a?style=flat-square&logo=duckdb&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Parquet-0f172a?style=flat-square&logo=apacheparquet&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Microsoft_Fabric-0f172a?style=flat-square&logo=microsoft&logoColor=38bdf8" />
+**Senior AI Engineer · Pune, India**<br/>
+I build agents that do real work, and write down how they break.
 
+</div>
+
+<div align="center">
+<a href="https://github.com/Parthkomalwad/Sable"><img src="assets/sable-terminal.svg" width="100%" alt="Sable demo: English request, planned, previewed, gated behind a typed YES, saved as a reusable skill"/></a>
+<br/><sub>▲ <b><a href="https://github.com/Parthkomalwad/Sable">Sable</a></b>, the shell that asks first. What I'm building now.</sub>
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=CURRENTLY%20BUILDING&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
-</div>
-
-<div align="center">
-
-<a href="https://github.com/Parthkomalwad/Sable"><img src="https://raw.githubusercontent.com/Parthkomalwad/Sable/main/docs/assets/sable-mark.svg" width="260" alt="Sable"/></a>
-
-<b>The shell that asks first.</b>
-
-<sub>SSH in and type English. Sable plans the work, previews every command, gates anything<br/>destructive behind a typed YES, hands long jobs to sandboxed sub-agents,<br/>and turns repeated work into reusable skills.</sub>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Python_3.11+-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Linux-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Ollama_%7C_OpenAI_%7C_Anthropic-0f172a?style=flat-square&logo=ollama&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/MIT-0f172a?style=flat-square&logo=opensourceinitiative&logoColor=38bdf8" />
-
-<br/><br/>
-
-<a href="https://github.com/Parthkomalwad/Sable">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Sable&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Sable"/>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=ALSO%20BUILT&fontSize=20&fontColor=64748b&height=60&animation=fadeIn&fontAlignY=55" width="100%"/>
-</div>
-
-<div align="center">
+### 🛠️ Projects
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td>
 
-<a href="https://github.com/Parthkomalwad/VeritasChain">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=VeritasChain&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="VeritasChain"/>
-</a>
+#### 🐚 [Sable](https://github.com/Parthkomalwad/Sable) &nbsp;<sub>`flagship` · `active`</sub>
 
-<sub>Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet and timestamp.<br/>Tamper-proof provenance, no accounts, no file storage.</sub>
+**The shell that asks first.** SSH in and type English. Sable plans the work, previews every command, gates anything destructive behind a typed `YES`, runs long jobs in sandboxed sub-agents, and turns repeated work into reusable skills.
 
-<br/><br/>
+<!-- Demo GIF: record one (e.g. with vhs or asciinema + agg), commit it to the Sable repo at docs/assets/demo.gif, then uncomment:
+<a href="https://github.com/Parthkomalwad/Sable"><img src="https://raw.githubusercontent.com/Parthkomalwad/Sable/main/docs/assets/demo.gif" width="100%" alt="Sable demo"/></a>
+-->
 
-<img src="https://img.shields.io/badge/React_19-0f172a?style=flat-square&logo=react&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/FastAPI-0f172a?style=flat-square&logo=fastapi&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Solidity-0f172a?style=flat-square&logo=solidity&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/IPFS-0f172a?style=flat-square&logo=ipfs&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Ethereum-0f172a?style=flat-square&logo=ethereum&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Python_3.11+-0f172a?style=flat-square&logo=python&logoColor=38bdf8" /> <img src="https://img.shields.io/badge/bubblewrap_sandbox-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" /> <img src="https://img.shields.io/badge/Claude_%7C_OpenAI_%7C_Ollama-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
 
-</td>
-<td align="center" width="50%">
-
-<a href="https://github.com/Parthkomalwad/Archon">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Parthkomalwad&repo=Archon&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8" alt="Archon"/>
-</a>
-
-<sub>Automated database backups as a drop-in Docker sidecar.<br/>AES-256 encrypted, SHA-256 verified, zero code changes to your app.</sub>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Python-0f172a?style=flat-square&logo=python&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=flat-square&logo=postgresql&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/MongoDB-0f172a?style=flat-square&logo=mongodb&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/AES--256-0f172a?style=flat-square&logo=letsencrypt&logoColor=38bdf8" />
+[**Read the docs →**](https://parthkomalwad.dev/projects/sable/) &nbsp;·&nbsp; [**Source →**](https://github.com/Parthkomalwad/Sable)
 
 </td>
 </tr>
 </table>
 
+**Also built**
+
+- ✂️ **[jevbrief](https://github.com/Parthkomalwad/jevbrief)**: trims logs, tool output and web pages down to what matters before the model decides. <sub>TypeScript · Python · [docs](https://parthkomalwad.dev/projects/jevbrief/)</sub>
+- 🗄️ **[Archon](https://github.com/Parthkomalwad/Archon)**: encrypted, verified DB backups as a drop-in Docker sidecar. <sub>Python · Docker · Postgres · MongoDB · [docs](https://parthkomalwad.dev/projects/archon/)</sub>
+- 🔗 **[VeritasChain](https://github.com/Parthkomalwad/VeritasChain)**: hash a file, pin it to IPFS, and anchor the fingerprint on-chain. <sub>React 19 · FastAPI · Solidity · [docs](https://parthkomalwad.dev/projects/veritaschain/)</sub>
+
+<sub>All projects and write-ups → **[parthkomalwad.dev](https://parthkomalwad.dev)**</sub>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+### 🧰 Stack
+
+| | |
+|---|---|
+| **Agents & LLMs** | Multi-agent orchestration · RAG · GraphRAG · NL2SQL · MCP · Llama 3 fine-tuning · LangChain · Claude · OpenAI · Ollama |
+| **Data** | Postgres · pgvector · DuckDB · Neo4j · Parquet · Microsoft Fabric |
+| **Cloud & Ops** | Azure AI Foundry · AWS · Docker · GitHub Actions · air-gapped deploys |
+| **Code** | Python · FastAPI · TypeScript · React 19 · WebAssembly |
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,ts,react,postgres,azure,aws,docker,linux&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Anthropic-MCP_Advanced-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
+<img src="https://img.shields.io/badge/Neo4j-Certified_Professional-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&text=ACTIVITY&fontSize=26&fontColor=38bdf8&height=70&animation=fadeIn&fontAlignY=55" width="100%"/>
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Parthkomalwad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&include_all_commits=true&count_private=true" height="160"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Parthkomalwad&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" height="160"/>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
@@ -173,13 +79,6 @@ Agents that do real work. Retrieval that stays grounded. Data platforms built fo
   <img alt="3D contribution graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 </picture>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Anthropic-MCP_Certified-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
-<img src="https://img.shields.io/badge/Neo4j-Certified_Professional-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
+<sub>Open to conversations about agent systems, RAG, and AI platform roles. Reach me at <a href="mailto:pkomalwad@gmail.com">pkomalwad@gmail.com</a>.</sub>
 
 </div>
-
-<br/>
-
-<img src="assets/divider.svg" width="100%" alt=""/>

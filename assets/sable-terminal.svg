@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Sable demo: an English request is planned, previewed, gated behind a typed YES, then saved as a reusable skill">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #c9d1d9; }
+    .dim { fill: #8b949e; }
+    .p { fill: #7ee787; }
+    .a { fill: #38bdf8; }
+    .w { fill: #f0b429; }
+    .b { font-weight: 700; fill: #e6edf3; }
+    .title { font-size: 12px; fill: #8b949e; }
+    .ln { opacity: 0; animation-duration: 14s; animation-iteration-count: infinite; animation-timing-function: linear; }
+    .l1 { animation-name: l1; } .l2 { animation-name: l2; } .l3 { animation-name: l3; }
+    .l4 { animation-name: l4; } .l5 { animation-name: l5; } .l6 { animation-name: l6; }
+    .l7 { animation-name: l7; } .l8 { animation-name: l8; }
+    @keyframes l1 { 0%,1% {opacity:0} 2%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l2 { 0%,16% {opacity:0} 17%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l3 { 0%,22% {opacity:0} 23%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l4 { 0%,30% {opacity:0} 31%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l5 { 0%,40% {opacity:0} 41%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l6 { 0%,55% {opacity:0} 56%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l7 { 0%,66% {opacity:0} 67%,94% {opacity:1} 97%,100% {opacity:0} }
+    @keyframes l8 { 0%,74% {opacity:0} 75%,94% {opacity:1} 97%,100% {opacity:0} }
+    /* typing: reveal command text by widening a clip rect */
+    #t1 { animation: t1 14s steps(46) infinite; }
+    @keyframes t1 { 0%,2% {width:0} 14%,100% {width:470px} }
+    #t2 { animation: t2 14s steps(3) infinite; }
+    @keyframes t2 { 0%,49% {width:0} 53%,100% {width:40px} }
+    .cur { animation: blink 1s steps(1) infinite; fill: #38bdf8; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ln { animation: none; opacity: 1; }
+      #t1 { animation: none; width: 470px; } #t2 { animation: none; width: 40px; }
+    }
+  </style>
+  <defs>
+    <clipPath id="c1"><rect id="t1" x="198" y="62" width="0" height="24"/></clipPath>
+    <clipPath id="c2"><rect id="t2" x="515" y="182" width="0" height="24"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="298" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="898" height="34" rx="10" fill="#161b22"/>
+  <rect x="1" y="25" width="898" height="10" fill="#161b22"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text x="450" y="22" text-anchor="middle" class="title">ssh parth@prod-box · sable</text>
+
+  <g class="ln l1"><text x="24" y="80"><tspan class="p">parth@prod-box</tspan><tspan class="dim">:~$ </tspan></text>
+    <text x="198" y="80" clip-path="url(#c1)">clean up old docker images and free some disk</text></g>
+
+  <text x="24" y="110" class="ln l2"><tspan class="a">sable ▸</tspan> plan  1) list unused images   2) docker image prune -a</text>
+  <text x="24" y="136" class="ln l3"><tspan class="a">sable ▸</tspan> preview  14 images · <tspan class="b">6.2 GB</tspan> · 0 running containers affected</text>
+  <text x="24" y="162" class="ln l4"><tspan class="dim">        $ docker image prune -a --force</tspan></text>
+  <g class="ln l5"><text x="24" y="200"><tspan class="w">sable ▸ ⚠ destructive. type YES to continue:</tspan></text>
+    <text x="515" y="200" class="b" clip-path="url(#c2)">YES</text></g>
+  <text x="24" y="230" class="ln l6"><tspan class="p">sable ▸ ✓</tspan> freed 6.2 GB in 3.1s</text>
+  <text x="24" y="256" class="ln l7"><tspan class="p">sable ▸ ✓</tspan> saved as skill <tspan class="a">docker-cleanup</tspan> · next time: <tspan class="dim">"run docker-cleanup"</tspan></text>
+  <g class="ln l8"><text x="24" y="284"><tspan class="p">parth@prod-box</tspan><tspan class="dim">:~$ </tspan></text><rect class="cur" x="198" y="271" width="9" height="17"/></g>
+</svg>
