@@ -21,13 +21,14 @@ I build agents that do real work, and write down how they break.
 
 <img src="assets/h-projects.svg" width="100%" alt="Projects"/>
 
-<a href="https://github.com/Parthkomalwad/Sable"><img src="assets/card-sable.svg" width="100%" alt="Sable: the shell that asks first"/></a>
-
 <table>
 <tr>
-<td width="33%"><a href="https://github.com/Parthkomalwad/jevbrief"><img src="assets/card-jevbrief.svg" width="100%" alt="jevbrief"/></a></td>
-<td width="33%"><a href="https://github.com/Parthkomalwad/Archon"><img src="assets/card-archon.svg" width="100%" alt="Archon"/></a></td>
-<td width="33%"><a href="https://github.com/Parthkomalwad/VeritasChain"><img src="assets/card-veritaschain.svg" width="100%" alt="VeritasChain"/></a></td>
+<td width="50%"><a href="https://github.com/Parthkomalwad/Sable"><img src="social/card-sable.png" width="100%" alt="Sable: your server's AI operator"/></a></td>
+<td width="50%"><a href="https://github.com/Parthkomalwad/jevbrief"><img src="social/card-jevbrief.png" width="100%" alt="jevbrief: context trimming for LLMs"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/Parthkomalwad/Archon"><img src="social/card-archon.png" width="100%" alt="Archon: database backups as a sidecar"/></a></td>
+<td width="50%"><a href="https://github.com/Parthkomalwad/VeritasChain"><img src="social/card-veritaschain.png" width="100%" alt="VeritasChain: on-chain file provenance"/></a></td>
 </tr>
 </table>
 

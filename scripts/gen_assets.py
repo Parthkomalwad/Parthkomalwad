@@ -74,47 +74,11 @@ def header(label, idx):
 </svg>'''
 
 
-def card(name, tagline, lines, stack, w, h, flag=False):
-    per = 2 * (w + h) - 8
-    y0 = 118 if flag else 94
-    fs = 15 if flag else 13
-    body = ''.join(f'<text x="28" y="{y0 + i * 22}" {FONT} font-size="{fs}" fill="#c9d1d9">{html.escape(l)}</text>' for i, l in enumerate(lines))
-    badge = (f'<rect x="{w - 128}" y="26" width="100" height="24" rx="12" fill="#0f2a3b" stroke="{ACC}" stroke-opacity=".5"/>'
-             f'<text x="{w - 78}" y="42" text-anchor="middle" {MONO} font-size="11" fill="{ACC}">FLAGSHIP</text>') if flag else ''
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{name}: {html.escape(tagline)}">
-<style>.run{{stroke-dasharray:160 {per - 160};animation:run 6s linear infinite}}@keyframes run{{to{{stroke-dashoffset:-{per}}}}}
-.go{{animation:go 2s ease-in-out infinite}}@keyframes go{{50%{{transform:translateX(5px)}}}}{RM}</style>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111a2b"/><stop offset="1" stop-color="#0b111c"/></linearGradient></defs>
-<rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" fill="url(#g)" stroke="#30363d"/>
-<rect class="run" x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" fill="none" stroke="{ACC}" stroke-width="2"/>
-{badge}
-<text x="28" y="{54 if flag else 46}" {FONT} font-size="{30 if flag else 21}" font-weight="700" fill="#e6edf3">{name}</text>
-<text x="28" y="{84 if flag else 68}" {FONT} font-size="{16 if flag else 13}" fill="{ACC}">{html.escape(tagline)}</text>
-{body}
-<text x="28" y="{h - 24}" {MONO} font-size="{12 if flag else 11}" fill="#8b949e">{html.escape(stack)}</text>
-<g class="go"><text x="{w - 28}" y="{h - 24}" text-anchor="end" {FONT} font-size="13" font-weight="600" fill="{ACC}">View →</text></g>
-</svg>'''
-
-
 out = {
     'assets/hero.svg': hero,
     'assets/h-projects.svg': header('PROJECTS', '01'),
     'assets/h-stack.svg': header('STACK', '02'),
     'assets/h-activity.svg': header('ACTIVITY', '03'),
-    'assets/card-sable.svg': card('Sable', 'The shell that asks first.', [
-        'SSH in and type English. Sable plans the work, previews every command,',
-        'gates anything destructive behind a typed YES, runs long jobs in',
-        'sandboxed sub-agents, and turns repeated work into reusable skills.'],
-        'Python · tmux · SQLite · bubblewrap · Claude / OpenAI / Ollama', 900, 250, True),
-    'assets/card-jevbrief.svg': card('jevbrief', 'Context trimming for LLMs', [
-        'Cuts logs, tool output and web', 'pages down to what matters', 'before the model decides.'],
-        'TypeScript · Python', 292, 210),
-    'assets/card-archon.svg': card('Archon', 'Backups as a sidecar', [
-        'Encrypted, verified DB backups', 'as a drop-in Docker sidecar.', 'AES-256 + SHA-256.'],
-        'Python · Docker · Postgres', 292, 210),
-    'assets/card-veritaschain.svg': card('VeritasChain', 'On-chain file provenance', [
-        'Hash a file, pin it to IPFS,', 'anchor the fingerprint on-chain.', 'No accounts, no storage.'],
-        'React · FastAPI · Solidity', 292, 210),
 }
 root = sys.argv[1]
 for k, v in out.items():
