@@ -2,58 +2,38 @@
 
 <img src="assets/hero.svg" width="100%" alt="Parth Komalwad, Senior AI Engineer"/>
 
-<a href="https://parthkomalwad.dev"><img src="https://img.shields.io/badge/parthkomalwad.dev-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=0f172a" /></a>&nbsp;
+<a href="https://parthkomalwad.dev"><img src="https://img.shields.io/badge/parthkomalwad.dev-38bdf8?style=for-the-badge&logoColor=0f172a" /></a>&nbsp;
 <a href="https://www.linkedin.com/in/parth-komalwad-b482a71b0/"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=38bdf8" /></a>&nbsp;
 <a href="mailto:pkomalwad@gmail.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=38bdf8" /></a>&nbsp;
 <a href="https://twitter.com/KomalwadParth"><img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=38bdf8" /></a>
 
-<br/>
+<br/><br/>
 
-**Senior AI Engineer · Pune, India**<br/>
 I build agents that do real work, and write down how they break.
 
-</div>
+<br/>
 
-<div align="center">
 <a href="https://github.com/Parthkomalwad/Sable"><img src="assets/sable-terminal.svg" width="100%" alt="Sable demo: English request, planned, previewed, gated behind a typed YES, saved as a reusable skill"/></a>
-<br/><sub>▲ <b><a href="https://github.com/Parthkomalwad/Sable">Sable</a></b>, the shell that asks first. What I'm building now.</sub>
+
 </div>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<br/>
 
-### 🛠️ Projects
+<img src="assets/h-projects.svg" width="100%" alt="Projects"/>
+
+<a href="https://github.com/Parthkomalwad/Sable"><img src="assets/card-sable.svg" width="100%" alt="Sable: the shell that asks first"/></a>
 
 <table>
 <tr>
-<td>
-
-#### 🐚 [Sable](https://github.com/Parthkomalwad/Sable) &nbsp;<sub>`flagship` · `active`</sub>
-
-**The shell that asks first.** SSH in and type English. Sable plans the work, previews every command, gates anything destructive behind a typed `YES`, runs long jobs in sandboxed sub-agents, and turns repeated work into reusable skills.
-
-<!-- Demo GIF: record one (e.g. with vhs or asciinema + agg), commit it to the Sable repo at docs/assets/demo.gif, then uncomment:
-<a href="https://github.com/Parthkomalwad/Sable"><img src="https://raw.githubusercontent.com/Parthkomalwad/Sable/main/docs/assets/demo.gif" width="100%" alt="Sable demo"/></a>
--->
-
-<img src="https://img.shields.io/badge/Python_3.11+-0f172a?style=flat-square&logo=python&logoColor=38bdf8" /> <img src="https://img.shields.io/badge/bubblewrap_sandbox-0f172a?style=flat-square&logo=linux&logoColor=38bdf8" /> <img src="https://img.shields.io/badge/Claude_%7C_OpenAI_%7C_Ollama-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
-
-[**Read the docs →**](https://parthkomalwad.dev/projects/sable/) &nbsp;·&nbsp; [**Source →**](https://github.com/Parthkomalwad/Sable)
-
-</td>
+<td width="33%"><a href="https://github.com/Parthkomalwad/jevbrief"><img src="assets/card-jevbrief.svg" width="100%" alt="jevbrief"/></a></td>
+<td width="33%"><a href="https://github.com/Parthkomalwad/Archon"><img src="assets/card-archon.svg" width="100%" alt="Archon"/></a></td>
+<td width="33%"><a href="https://github.com/Parthkomalwad/VeritasChain"><img src="assets/card-veritaschain.svg" width="100%" alt="VeritasChain"/></a></td>
 </tr>
 </table>
 
-**Also built**
+<p align="right"><a href="https://parthkomalwad.dev"><b>All projects and write-ups on parthkomalwad.dev &rarr;</b></a></p>
 
-- ✂️ **[jevbrief](https://github.com/Parthkomalwad/jevbrief)**: trims logs, tool output and web pages down to what matters before the model decides. <sub>TypeScript · Python · [docs](https://parthkomalwad.dev/projects/jevbrief/)</sub>
-- 🗄️ **[Archon](https://github.com/Parthkomalwad/Archon)**: encrypted, verified DB backups as a drop-in Docker sidecar. <sub>Python · Docker · Postgres · MongoDB · [docs](https://parthkomalwad.dev/projects/archon/)</sub>
-- 🔗 **[VeritasChain](https://github.com/Parthkomalwad/VeritasChain)**: hash a file, pin it to IPFS, and anchor the fingerprint on-chain. <sub>React 19 · FastAPI · Solidity · [docs](https://parthkomalwad.dev/projects/veritaschain/)</sub>
-
-<sub>All projects and write-ups → **[parthkomalwad.dev](https://parthkomalwad.dev)**</sub>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-### 🧰 Stack
+<img src="assets/h-stack.svg" width="100%" alt="Stack"/>
 
 | | |
 |---|---|
@@ -69,7 +49,9 @@ I build agents that do real work, and write down how they break.
 <img src="https://img.shields.io/badge/Neo4j-Certified_Professional-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
 </div>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<br/>
+
+<img src="assets/h-activity.svg" width="100%" alt="Activity"/>
 
 <div align="center">
 
@@ -79,6 +61,8 @@ I build agents that do real work, and write down how they break.
   <img alt="3D contribution graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
 </picture>
 
-<sub>Open to conversations about agent systems, RAG, and AI platform roles. Reach me at <a href="mailto:pkomalwad@gmail.com">pkomalwad@gmail.com</a>.</sub>
+<br/>
+
+<sub>Open to conversations about agent systems, RAG, and AI platform roles &middot; <a href="mailto:pkomalwad@gmail.com">pkomalwad@gmail.com</a></sub>
 
 </div>
