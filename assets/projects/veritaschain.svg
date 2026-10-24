@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="VeritasChain: Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet + timestamp.">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="VeritasChain: Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet + timestamp. Verify tamper-proof provenance with no accounts and no file storage. React 19 · FastAPI · Solidity.">
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05080f"/><stop offset="1" stop-color="#0b1424"/></linearGradient></defs>
 <rect x=".5" y=".5" width="599" height="195" rx="14" fill="url(#bg)" stroke="#30363d"/>
 <rect x="32" y="0" width="56" height="3" rx="1.5" fill="#38bdf8"/>
 <g font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
 <text x="32" y="50" font-size="24" font-weight="700" fill="#e6edf3">VeritasChain</text>
 <circle cx="480" cy="43" r="6" fill="#f1e05a"/><text x="568" y="48" font-size="14" fill="#c9d1d9" text-anchor="end">JavaScript</text>
-<text x="32" y="92" font-size="15" fill="#8b949e">Authenticate Reality. Preserve Truth. Decentralized media integrity</text><text x="32" y="116" font-size="15" fill="#8b949e">platform on Ethereum + IPFS. Hash any file, pin it to IPFS, anchor the</text><text x="32" y="140" font-size="15" fill="#8b949e">fingerprint on-chain with wallet + timestamp.</text>
+<text x="32" y="92" font-size="15" fill="#8b949e">Authenticate Reality. Preserve Truth. Decentralized media integrity</text><text x="32" y="116" font-size="15" fill="#8b949e">platform on Ethereum + IPFS. Hash any file, pin it to IPFS, anchor the</text><text x="32" y="140" font-size="15" fill="#8b949e">fingerprint on-chain with wallet + timestamp. Verify…</text>
 <text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 3  ·  updated 3w ago</text>
 </g>
 

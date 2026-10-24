@@ -34,8 +34,8 @@ Now building <a href="https://github.com/Parthkomalwad/tripline"><b>tripline</b>
 <a href="https://github.com/Parthkomalwad/codemode-deno-executor"><img src="assets/projects/codemode-deno-executor.svg" width="49%" alt="codemode-deno-executor: Run Cloudflare Code Mode anywhere: a sandboxed Deno executor for @cloudflare/codemode."/></a>&nbsp;
 <a href="https://github.com/Parthkomalwad/jevbrief"><img src="assets/projects/jevbrief.svg" width="49%" alt="jevbrief: Clean, traceable state briefings for TypeSafe&#x27;s Jev model"/></a>
 <br/>
-<a href="https://github.com/Parthkomalwad/VeritasChain"><img src="assets/projects/veritaschain.svg" width="49%" alt="VeritasChain: Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet + timestamp."/></a>&nbsp;
-<a href="https://github.com/Parthkomalwad/Archon"><img src="assets/projects/archon.svg" width="49%" alt="Archon: Plug-and-play Docker sidecar for automated, AES-256 encrypted, SHA-256 verified database backups Postgres, MongoDB, SQLite, MySQL zero code changes to your app."/></a>
+<a href="https://github.com/Parthkomalwad/Archon"><img src="assets/projects/archon.svg" width="49%" alt="Archon: Plug-and-play Docker sidecar for automated, AES-256 encrypted, SHA-256 verified database backups Postgres, MongoDB, SQLite, MySQL zero code changes to your app."/></a>&nbsp;
+<a href="https://github.com/Parthkomalwad/VeritasChain"><img src="assets/projects/veritaschain.svg" width="49%" alt="VeritasChain: Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. Hash any file, pin it to IPFS, anchor the fingerprint on-chain with wallet + timestamp. Verify tamper-proof provenance with no accounts and no file storage. React 19 · FastAPI · Solidity."/></a>
 </p>
 
 <p align="center"><sub>8 public repos, newest activity first. Updated automatically every 6 hours.</sub></p>
