@@ -13,7 +13,7 @@ I build agents that do real work, and write down how they break.
 
 <p><sub>
 <!-- NOW:START -->
-Now building <a href="https://github.com/Parthkomalwad/tripline"><b>tripline</b></a> &middot; Open-source monitor for self-hosted AI systems: detect secret access,…
+Now building <a href="https://github.com/Parthkomalwad/lean-harness"><b>lean-harness</b></a> &middot; A lean, agent-agnostic harness. Only what the model does not already…
 <!-- NOW:END -->
 </sub></p>
 
@@ -25,8 +25,8 @@ Now building <a href="https://github.com/Parthkomalwad/tripline"><b>tripline</b>
 
 <!-- PROJECTS:START -->
 <p align="center">
-<a href="https://github.com/Parthkomalwad/tripline"><img src="assets/projects/tripline.svg" width="49%" alt="tripline: Open-source monitor for self-hosted AI systems: detect secret access, exfiltration and stolen key use."/></a>&nbsp;
-<a href="https://github.com/Parthkomalwad/lean-harness"><img src="assets/projects/lean-harness.svg" width="49%" alt="lean-harness: A lean, agent-agnostic harness. Only what the model does not already know."/></a>
+<a href="https://github.com/Parthkomalwad/lean-harness"><img src="assets/projects/lean-harness.svg" width="49%" alt="lean-harness: A lean, agent-agnostic harness. Only what the model does not already know."/></a>&nbsp;
+<a href="https://github.com/Parthkomalwad/tripline"><img src="assets/projects/tripline.svg" width="49%" alt="tripline: Open-source monitor for self-hosted AI systems: detect secret access, exfiltration and stolen key use."/></a>
 <br/>
 <a href="https://github.com/Parthkomalwad/agentic-harness"><img src="assets/projects/agentic-harness.svg" width="49%" alt="agentic-harness: Plug-and-play catalogue of Claude Code packs: skills, agents, workflows, hooks and mods. Enable only what a project needs."/></a>&nbsp;
 <a href="https://github.com/Parthkomalwad/Sable"><img src="assets/projects/sable.svg" width="49%" alt="Sable: The shell that asks first. SSH in, type English, and Sable plans the work, previews every command, gates anything destructive behind a typed YES, hands long jobs to sandboxed sub-agents, and turns repeated work into reusable skills. Ollama, OpenAI or Anthropic. Zero LLM gateways."/></a>
