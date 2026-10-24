@@ -1,4 +1,4 @@
-name: Update projects list
+name: Update profile README
 
 on:
   schedule:
@@ -9,7 +9,8 @@ on:
       - main
     paths:
       - "scripts/gen_projects.py"
-      - ".github/workflows/update-projects.yml"
+      - "scripts/gen_writing.py"
+      - ".github/workflows/update-readme.yml"
 
 permissions:
   contents: write
@@ -29,18 +30,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Regenerate projects list
+      - name: Regenerate projects and now line
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
         run: python scripts/gen_projects.py
 
+      - name: Regenerate writing list
+        run: python scripts/gen_writing.py
+
       - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add README.md
-          if git commit -m "chore: refresh projects list"; then
+          git add README.md assets/projects
+          if git commit -m "chore: refresh profile README"; then
             git pull --rebase origin main
             git push
           fi

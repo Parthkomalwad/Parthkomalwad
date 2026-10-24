@@ -77,8 +77,9 @@ def header(label, idx):
 out = {
     'assets/hero.svg': hero,
     'assets/h-projects.svg': header('PROJECTS', '01'),
-    'assets/h-stack.svg': header('STACK', '02'),
-    'assets/h-activity.svg': header('ACTIVITY', '03'),
+    'assets/h-writing.svg': header('WRITING', '02'),
+    'assets/h-stack.svg': header('STACK', '03'),
+    'assets/h-activity.svg': header('ACTIVITY', '04'),
 }
 root = sys.argv[1]
 for k, v in out.items():
