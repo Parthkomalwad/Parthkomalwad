@@ -11,26 +11,26 @@
 
 I build agents that do real work, and write down how they break.
 
-<br/>
-
-<a href="https://github.com/Parthkomalwad/Sable"><img src="assets/sable-terminal.svg" width="100%" alt="Sable demo: English request, planned, previewed, gated behind a typed YES, saved as a reusable skill"/></a>
-
 </div>
 
 <br/>
 
 <img src="assets/h-projects.svg" width="100%" alt="Projects"/>
 
-<table>
-<tr>
-<td width="50%"><a href="https://github.com/Parthkomalwad/Sable"><img src="social/card-sable.png" width="100%" alt="Sable: your server's AI operator"/></a></td>
-<td width="50%"><a href="https://github.com/Parthkomalwad/jevbrief"><img src="social/card-jevbrief.png" width="100%" alt="jevbrief: context trimming for LLMs"/></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/Parthkomalwad/Archon"><img src="social/card-archon.png" width="100%" alt="Archon: database backups as a sidecar"/></a></td>
-<td width="50%"><a href="https://github.com/Parthkomalwad/VeritasChain"><img src="social/card-veritaschain.png" width="100%" alt="VeritasChain: on-chain file provenance"/></a></td>
-</tr>
-</table>
+<!-- PROJECTS:START -->
+| Project | What it does | Language | ★ | Updated |
+|---|---|---|:-:|---|
+| <a href="https://github.com/Parthkomalwad/tripline"><b>tripline</b></a> | Open-source monitor for self-hosted AI systems: detect secret access, exfiltration and stolen key use. | Go | 0 | today |
+| <a href="https://github.com/Parthkomalwad/lean-harness"><b>lean-harness</b></a> | A lean, agent-agnostic harness. Only what the model does not already know.<br/><sub><code>agents-md</code> <code>ai-agents</code> <code>apm</code></sub> | JavaScript | 0 | 1d ago |
+| <a href="https://github.com/Parthkomalwad/agentic-harness"><b>agentic-harness</b></a> | Plug-and-play catalogue of Claude Code packs: skills, agents, workflows, hooks and mods. Enable only what a…<br/><sub><code>agent-skills</code> <code>ai-agents</code> <code>claude-code</code></sub> | JavaScript | 1 | 1d ago |
+| <a href="https://github.com/Parthkomalwad/Sable"><b>Sable</b></a> | The shell that asks first. SSH in, type English, and Sable plans the work, previews every command, gates… | Python | 4 | 2d ago |
+| <a href="https://github.com/Parthkomalwad/codemode-deno-executor"><b>codemode-deno-executor</b></a> | Run Cloudflare Code Mode anywhere: a sandboxed Deno executor for @cloudflare/codemode.<br/><sub><code>ai-agents</code> <code>cloudflare</code> <code>codemode</code></sub> | JavaScript | 0 | 3d ago |
+| <a href="https://github.com/Parthkomalwad/jevbrief"><b>jevbrief</b></a> | Clean, traceable state briefings for TypeSafe's Jev model<br/><sub><code>ai-agents</code> <code>jev</code> <code>llm</code></sub> | Python | 6 | 2w ago |
+| <a href="https://github.com/Parthkomalwad/VeritasChain"><b>VeritasChain</b></a> | Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. | JavaScript | 3 | 3w ago |
+| <a href="https://github.com/Parthkomalwad/Archon"><b>Archon</b></a> | Plug-and-play Docker sidecar for automated, AES-256 encrypted, SHA-256 verified database backups Postgres… | Python | 4 | 3w ago |
+
+<sub>8 public repos, newest activity first. Updated automatically on Oct 24, 2026.</sub>
+<!-- PROJECTS:END -->
 
 <p align="right"><a href="https://parthkomalwad.dev"><b>All projects and write-ups on parthkomalwad.dev &rarr;</b></a></p>
 
