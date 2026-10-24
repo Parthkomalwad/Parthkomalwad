@@ -1,18 +1,30 @@
-"""Rebuild the Projects list in README.md from the owner's public repos.
+"""Rebuild the Projects grid in README.md from the owner's public repos.
 
 Runs in GitHub Actions. Only public, non-fork, non-archived repos are listed,
-so a repo shows up here on the next run after it is made public.
+so a repo shows up here on the next run after it is made public. Each repo
+gets an SVG card in assets/projects/, styled to match the hero and headers.
 """
-import json, os, re, sys, urllib.request
+import glob, html, json, os, re, sys, textwrap, urllib.request
 from datetime import datetime, timezone
 
 USER = os.environ.get("GH_USER", "Parthkomalwad")
-README = os.path.join(os.path.dirname(__file__), "..", "README.md")
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+README = os.path.join(ROOT, "README.md")
+CARDS = os.path.join(ROOT, "assets", "projects")
 START, END = "<!-- PROJECTS:START -->", "<!-- PROJECTS:END -->"
 # Repos that are plumbing, not projects.
 EXCLUDE = {USER.lower(), "parthkomalwad.dev-comments"}
 MAX_TOPICS = 3
-MAX_DESC = 110
+
+FONT = 'font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif"'
+MONO = 'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"'
+ACC = "#38bdf8"
+LANG_COLORS = {
+    "Python": "#3572A5", "JavaScript": "#f1e05a", "TypeScript": "#3178c6", "Go": "#00ADD8",
+    "Rust": "#dea584", "HTML": "#e34c26", "CSS": "#563d7c", "Shell": "#89e051",
+    "Solidity": "#AA6746", "C#": "#178600", "C++": "#f34b7d", "Java": "#b07219",
+}
+W, H = 600, 210  # card is 196 tall; the rest is transparent gap between rows
 
 
 def fetch_repos():
@@ -33,44 +45,79 @@ def fetch_repos():
 def ago(iso, now):
     days = (now - datetime.fromisoformat(iso.replace("Z", "+00:00"))).days
     if days < 1:
-        return "today"
+        return "updated today"
     if days < 14:
-        return f"{days}d ago"
+        return f"updated {days}d ago"
     if days < 60:
-        return f"{days // 7}w ago"
+        return f"updated {days // 7}w ago"
     if days < 365:
-        return f"{days // 30}mo ago"
-    return f"{days // 365}y ago"
+        return f"updated {days // 30}mo ago"
+    return f"updated {days // 365}y ago"
 
 
-def cell(text):
-    return (text or "").replace("|", "&#124;").replace("\n", " ").strip()
+def card(r, now):
+    e = html.escape
+    lines = textwrap.wrap(r["description"] or "No description yet.", 70)
+    if len(lines) > 3:
+        lines = lines[:3]
+        lines[2] = lines[2][:67].rsplit(" ", 1)[0].rstrip(" .,;:") + "…"
+    desc = "".join(
+        f'<text x="32" y="{92 + i * 24}" font-size="15" fill="#8b949e">{e(t)}</text>'
+        for i, t in enumerate(lines))
 
+    chips, x = "", 32
+    for t in r.get("topics", [])[:MAX_TOPICS]:
+        w = len(t) * 7.4 + 20
+        chips += (f'<rect x="{x}" y="160" width="{w:.0f}" height="22" rx="11" fill="{ACC}" fill-opacity=".1"/>'
+                  f'<text x="{x + w / 2:.0f}" y="175" {MONO} font-size="12" fill="#7dd3fc" text-anchor="middle">{e(t)}</text>')
+        x += w + 8
 
-def short(text):
-    if len(text) <= MAX_DESC:
-        return text
-    cut = text[:MAX_DESC].rsplit(" ", 1)[0].rstrip(".,;:")
-    return cut + "…"
+    lang = r["language"]
+    meta = f'★ {r["stargazers_count"]}  ·  {ago(r["pushed_at"], now)}'
+    lang_svg = ""
+    if lang:
+        lang_svg = (f'<circle cx="{W - 32 - len(lang) * 7.2 - 16:.0f}" cy="43" r="6" fill="{LANG_COLORS.get(lang, "#8b949e")}"/>'
+                    f'<text x="{W - 32}" y="48" font-size="14" fill="#c9d1d9" text-anchor="end">{e(lang)}</text>')
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{e(r["name"])}: {e(r["description"] or "")}">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05080f"/><stop offset="1" stop-color="#0b1424"/></linearGradient></defs>
+<rect x=".5" y=".5" width="{W - 1}" height="195" rx="14" fill="url(#bg)" stroke="#30363d"/>
+<rect x="32" y="0" width="56" height="3" rx="1.5" fill="{ACC}"/>
+<g {FONT}>
+<text x="32" y="50" font-size="24" font-weight="700" fill="#e6edf3">{e(r["name"])}</text>
+{lang_svg}
+{desc}
+<text x="{W - 32}" y="176" font-size="13" fill="#8b949e" text-anchor="end">{e(meta)}</text>
+</g>
+{chips}
+</svg>
+'''
 
 
 def render(repos, now):
     shown = [r for r in repos
              if not (r["private"] or r["fork"] or r["archived"] or r["name"].lower() in EXCLUDE)]
     shown.sort(key=lambda r: r["pushed_at"], reverse=True)
-    rows = ["| Project | What it does | Language | ★ | Updated |", "|---|---|---|:-:|---|"]
+
+    os.makedirs(CARDS, exist_ok=True)
+    keep = set()
     for r in shown:
-        desc = short(cell(r["description"])) or "<i>No description yet</i>"
-        topics = " ".join(f"<code>{t}</code>" for t in r.get("topics", [])[:MAX_TOPICS])
-        if topics:
-            desc += f"<br/><sub>{topics}</sub>"
-        rows.append(
-            f'| <a href="{r["html_url"]}"><b>{cell(r["name"])}</b></a> | {desc} '
-            f'| {cell(r["language"]) or "—"} | {r["stargazers_count"]} | {ago(r["pushed_at"], now)} |'
-        )
-    footer = (f'\n<sub>{len(shown)} public repos, newest activity first. '
-              f'Updated automatically on {now:%b %-d, %Y}.</sub>')
-    return "\n".join(rows) + "\n" + footer
+        name = re.sub(r"[^A-Za-z0-9._-]", "-", r["name"]).lower() + ".svg"
+        keep.add(name)
+        with open(os.path.join(CARDS, name), "w", encoding="utf-8") as f:
+            f.write(card(r, now))
+        r["card"] = f"assets/projects/{name}"
+    for old in glob.glob(os.path.join(CARDS, "*.svg")):
+        if os.path.basename(old) not in keep:
+            os.remove(old)
+
+    cells = [f'<a href="{r["html_url"]}"><img src="{r["card"]}" width="49%" '
+             f'alt="{html.escape(r["name"])}: {html.escape(r["description"] or "")}"/></a>'
+             for r in shown]
+    rows = ["&nbsp;\n".join(cells[i:i + 2]) for i in range(0, len(cells), 2)]
+    return ('<p align="center">\n' + "\n<br/>\n".join(rows) + "\n</p>\n\n"
+            f'<p align="center"><sub>{len(shown)} public repos, newest activity first. '
+            f'Updated automatically every 6 hours.</sub></p>')
 
 
 def main():
@@ -78,8 +125,7 @@ def main():
         text = f.read()
     if START not in text or END not in text:
         sys.exit(f"README.md is missing {START} / {END} markers")
-    now = datetime.now(timezone.utc)
-    block = f"{START}\n{render(fetch_repos(), now)}\n{END}"
+    block = f"{START}\n{render(fetch_repos(), datetime.now(timezone.utc))}\n{END}"
     text = re.sub(re.escape(START) + ".*?" + re.escape(END), lambda _: block, text, flags=re.S)
     with open(README, "w", encoding="utf-8") as f:
         f.write(text)
