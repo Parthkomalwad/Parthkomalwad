@@ -25,9 +25,9 @@ I build agents that do real work, and write down how they break.
 | <a href="https://github.com/Parthkomalwad/agentic-harness"><b>agentic-harness</b></a> | Plug-and-play catalogue of Claude Code packs: skills, agents, workflows, hooks and mods. Enable only what a…<br/><sub><code>agent-skills</code> <code>ai-agents</code> <code>claude-code</code></sub> | JavaScript | 1 | 1d ago |
 | <a href="https://github.com/Parthkomalwad/Sable"><b>Sable</b></a> | The shell that asks first. SSH in, type English, and Sable plans the work, previews every command, gates… | Python | 4 | 2d ago |
 | <a href="https://github.com/Parthkomalwad/codemode-deno-executor"><b>codemode-deno-executor</b></a> | Run Cloudflare Code Mode anywhere: a sandboxed Deno executor for @cloudflare/codemode.<br/><sub><code>ai-agents</code> <code>cloudflare</code> <code>codemode</code></sub> | JavaScript | 0 | 3d ago |
-| <a href="https://github.com/Parthkomalwad/jevbrief"><b>jevbrief</b></a> | Clean, traceable state briefings for TypeSafe's Jev model<br/><sub><code>ai-agents</code> <code>jev</code> <code>llm</code></sub> | Python | 6 | 2w ago |
-| <a href="https://github.com/Parthkomalwad/VeritasChain"><b>VeritasChain</b></a> | Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. | JavaScript | 3 | 3w ago |
+| <a href="https://github.com/Parthkomalwad/jevbrief"><b>jevbrief</b></a> | Clean, traceable state briefings for TypeSafe's Jev model<br/><sub><code>ai-agents</code> <code>jev</code> <code>llm</code></sub> | Python | 6 | 3w ago |
 | <a href="https://github.com/Parthkomalwad/Archon"><b>Archon</b></a> | Plug-and-play Docker sidecar for automated, AES-256 encrypted, SHA-256 verified database backups Postgres… | Python | 4 | 3w ago |
+| <a href="https://github.com/Parthkomalwad/VeritasChain"><b>VeritasChain</b></a> | Authenticate Reality. Preserve Truth. Decentralized media integrity platform on Ethereum + IPFS. Hash any… | JavaScript | 3 | 3w ago |
 
 <sub>8 public repos, newest activity first. Updated automatically on Oct 24, 2026.</sub>
 <!-- PROJECTS:END -->
