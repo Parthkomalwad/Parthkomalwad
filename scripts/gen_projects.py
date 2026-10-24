@@ -12,6 +12,7 @@ ROOT = os.path.join(os.path.dirname(__file__), "..")
 README = os.path.join(ROOT, "README.md")
 CARDS = os.path.join(ROOT, "assets", "projects")
 START, END = "<!-- PROJECTS:START -->", "<!-- PROJECTS:END -->"
+NOW_START, NOW_END = "<!-- NOW:START -->", "<!-- NOW:END -->"
 # Repos that are plumbing, not projects.
 EXCLUDE = {USER.lower(), "parthkomalwad.dev-comments"}
 MAX_TOPICS = 3
@@ -115,18 +116,32 @@ def render(repos, now):
              f'alt="{html.escape(r["name"])}: {html.escape(r["description"] or "")}"/></a>'
              for r in shown]
     rows = ["&nbsp;\n".join(cells[i:i + 2]) for i in range(0, len(cells), 2)]
-    return ('<p align="center">\n' + "\n<br/>\n".join(rows) + "\n</p>\n\n"
+    return shown, ('<p align="center">\n' + "\n<br/>\n".join(rows) + "\n</p>\n\n"
             f'<p align="center"><sub>{len(shown)} public repos, newest activity first. '
             f'Updated automatically every 6 hours.</sub></p>')
+
+
+def now_line(r):
+    """One line naming the most recently pushed public repo."""
+    desc = textwrap.shorten(r["description"] or "", 70, placeholder="…")
+    return (f'Now building <a href="{r["html_url"]}"><b>{html.escape(r["name"])}</b></a>'
+            + (f" &middot; {html.escape(desc)}" if desc else ""))
+
+
+def replace(text, start, end, body):
+    if start not in text or end not in text:
+        sys.exit(f"README.md is missing {start} / {end} markers")
+    block = f"{start}\n{body}\n{end}"
+    return re.sub(re.escape(start) + ".*?" + re.escape(end), lambda _: block, text, flags=re.S)
 
 
 def main():
     with open(README, encoding="utf-8") as f:
         text = f.read()
-    if START not in text or END not in text:
-        sys.exit(f"README.md is missing {START} / {END} markers")
-    block = f"{START}\n{render(fetch_repos(), datetime.now(timezone.utc))}\n{END}"
-    text = re.sub(re.escape(START) + ".*?" + re.escape(END), lambda _: block, text, flags=re.S)
+    shown, grid = render(fetch_repos(), datetime.now(timezone.utc))
+    text = replace(text, START, END, grid)
+    if shown:
+        text = replace(text, NOW_START, NOW_END, now_line(shown[0]))
     with open(README, "w", encoding="utf-8") as f:
         f.write(text)
 

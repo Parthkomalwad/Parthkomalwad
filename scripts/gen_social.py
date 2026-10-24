@@ -1,7 +1,7 @@
 """Render 1280x640 GitHub social preview PNGs for each repo.
 
 Usage: python scripts/gen_social.py
-Needs Google Chrome (headless screenshot). Output: social/<repo>.png (social preview) and social/card-<repo>.png (profile README card)
+Needs Google Chrome (headless screenshot). Output: social/<repo>.png (social preview)
 Upload each PNG in the repo's Settings -> General -> Social preview.
 """
 import html
@@ -98,41 +98,6 @@ h1{{font-family:{t['display']},system-ui,sans-serif;font-size:100px;font-weight:
 </div></body></html>"""
 
 
-def card_page(r):
-    """Profile README card: shared type for a consistent grid, brand colour only."""
-    t = r["theme"]
-    logo = ""
-    if r.get("logo"):
-        with open(os.path.join(OUT, "sable-logo.svg"), encoding="utf-8") as f:
-            logo = f'<div class="logo">{f.read()}</div>'
-    badge = f'<span class="badge">{r["badge"]}</span>' if r.get("badge") else ""
-    chips = "".join(f"<span>{html.escape(c)}</span>" for c in r["chips"][:4])
-    desc = html.escape(" ".join(r["lines"]))
-    return f"""<!doctype html><html><head><meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=block"><style>
-*{{margin:0;padding:0;box-sizing:border-box}}
-html,body{{width:1000px;height:560px;overflow:hidden;background:transparent}}
-.c{{position:absolute;inset:0;border-radius:28px;overflow:hidden;border:2px solid {t['acc']}40;
-background:radial-gradient(600px 380px at 92% 0%,{t['acc']}30,transparent 65%),linear-gradient(165deg,{t['surf']},{t['bg']});
-font-family:'Geist',system-ui,sans-serif;color:#EEEDF2;padding:56px 60px;display:flex;flex-direction:column}}
-.top{{display:flex;align-items:center;gap:22px}}
-.logo svg{{width:84px;height:84px;display:block}}
-h1{{font-size:76px;font-weight:800;letter-spacing:-2px;line-height:1}}
-.badge{{font:500 20px 'JetBrains Mono',monospace;color:{t['ok']};border:2px solid {t['ok']}66;border-radius:999px;padding:5px 14px;margin-left:14px;vertical-align:middle;letter-spacing:0}}
-.tag{{margin-top:26px;font-size:36px;font-weight:700;color:{t['ink']};letter-spacing:-.5px;line-height:1.2}}
-.d{{margin-top:16px;font-size:26px;line-height:1.45;color:#B4B3BE}}
-.chips{{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap}}
-.chips span{{font:500 21px 'JetBrains Mono',monospace;color:{t['ink']};background:{t['acc']}18;border:1px solid {t['acc']}50;border-radius:8px;padding:7px 13px}}
-.go{{position:absolute;right:56px;bottom:56px;font-size:24px;font-weight:700;color:{t['ink']}}}
-</style></head><body><div class="c">
-<div class="top">{logo}<h1>{html.escape(r['name'])}{badge}</h1></div>
-<div class="tag">{html.escape(r['tag'])}</div>
-<div class="d">{desc}</div>
-<div class="chips">{chips}</div>
-<div class="go">View &rarr;</div>
-</div></body></html>"""
-
-
 def chrome():
     for c in CHROME_CANDIDATES:
         if os.path.isfile(c) or shutil.which(c):
@@ -157,7 +122,6 @@ def main():
     tmp = tempfile.mkdtemp()
     for r in REPOS:
         shoot(exe, page(r), os.path.join(OUT, r["slug"] + ".png"), 1280, 640, tmp)
-        shoot(exe, card_page(r), os.path.join(OUT, "card-" + r["slug"] + ".png"), 1000, 560, tmp, transparent=True)
 
 
 if __name__ == "__main__":

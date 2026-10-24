@@ -11,6 +11,12 @@
 
 I build agents that do real work, and write down how they break.
 
+<p><sub>
+<!-- NOW:START -->
+Now building <a href="https://github.com/Parthkomalwad/tripline"><b>tripline</b></a> &middot; Open-source monitor for self-hosted AI systems: detect secret access,…
+<!-- NOW:END -->
+</sub></p>
+
 </div>
 
 <br/>
@@ -35,7 +41,17 @@ I build agents that do real work, and write down how they break.
 <p align="center"><sub>8 public repos, newest activity first. Updated automatically every 6 hours.</sub></p>
 <!-- PROJECTS:END -->
 
-<p align="right"><a href="https://parthkomalwad.dev"><b>All projects and write-ups on parthkomalwad.dev &rarr;</b></a></p>
+<img src="assets/h-writing.svg" width="100%" alt="Writing"/>
+
+<!-- WRITING:START -->
+<ul>
+<li><a href="https://parthkomalwad.dev/writing/codemode-deno-executor-sandbox/"><b>Running Cloudflare Code Mode outside Workers, in a Deno sandbox</b></a><br/><sub>Oct 21, 2026 &middot; A drop-in executor that runs LLM-generated Code Mode scripts in Deno with every permission denied, in any Node app.</sub></li>
+<li><a href="https://parthkomalwad.dev/writing/archon-docker-database-backups/"><b>Archon: encrypted database backups as a Docker sidecar</b></a><br/><sub>Sep 30, 2026 &middot; Archon adds automatic, encrypted, checksum-verified backups for Postgres, MongoDB, MySQL and SQLite to any Docker stack, with no code changes.</sub></li>
+<li><a href="https://parthkomalwad.dev/writing/jevbrief-cleaner-state-for-ai-decisions/"><b>jevbrief: give an AI model less noise and get better decisions</b></a><br/><sub>Sep 30, 2026 &middot; jevbrief trims logs, tools and web pages down to what matters before an AI model decides, and records why every item was dropped. With benchmarks.</sub></li>
+</ul>
+
+<p align="right"><a href="https://parthkomalwad.dev/writing/"><b>All writing on parthkomalwad.dev &rarr;</b></a></p>
+<!-- WRITING:END -->
 
 <img src="assets/h-stack.svg" width="100%" alt="Stack"/>
 
@@ -47,8 +63,6 @@ I build agents that do real work, and write down how they break.
 | **Code** | Python · FastAPI · TypeScript · React 19 · WebAssembly |
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,ts,react,postgres,azure,aws,docker,linux&theme=dark" />
-<br/><br/>
 <img src="https://img.shields.io/badge/Anthropic-MCP_Advanced-0f172a?style=flat-square&logo=anthropic&logoColor=38bdf8" />
 <img src="https://img.shields.io/badge/Neo4j-Certified_Professional-0f172a?style=flat-square&logo=neo4j&logoColor=38bdf8" />
 </div>
