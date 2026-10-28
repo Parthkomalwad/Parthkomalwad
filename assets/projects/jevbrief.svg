@@ -6,7 +6,7 @@
 <text x="32" y="50" font-size="24" font-weight="700" fill="#e6edf3">jevbrief</text>
 <circle cx="509" cy="43" r="6" fill="#3572A5"/><text x="568" y="48" font-size="14" fill="#c9d1d9" text-anchor="end">Python</text>
 <text x="32" y="92" font-size="15" fill="#8b949e">Clean, traceable state briefings for TypeSafe&#x27;s Jev model</text>
-<text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 6  ·  updated 3w ago</text>
+<text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 6  ·  updated 4w ago</text>
 </g>
 <rect x="32" y="160" width="87" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="75" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">ai-agents</text><rect x="126.60000000000001" y="160" width="42" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="148" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">jev</text><rect x="176.8" y="160" width="42" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="198" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">llm</text>
 </svg>
