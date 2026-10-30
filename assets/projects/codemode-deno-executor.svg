@@ -6,7 +6,7 @@
 <text x="32" y="50" font-size="24" font-weight="700" fill="#e6edf3">codemode-deno-executor</text>
 <circle cx="480" cy="43" r="6" fill="#f1e05a"/><text x="568" y="48" font-size="14" fill="#c9d1d9" text-anchor="end">JavaScript</text>
 <text x="32" y="92" font-size="15" fill="#8b949e">Run Cloudflare Code Mode anywhere: a sandboxed Deno executor for</text><text x="32" y="116" font-size="15" fill="#8b949e">@cloudflare/codemode.</text>
-<text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 0  ·  updated 9d ago</text>
+<text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 0  ·  updated 10d ago</text>
 </g>
 <rect x="32" y="160" width="87" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="75" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">ai-agents</text><rect x="126.60000000000001" y="160" width="94" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="174" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">cloudflare</text><rect x="228.60000000000002" y="160" width="79" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="268" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">codemode</text>
 </svg>

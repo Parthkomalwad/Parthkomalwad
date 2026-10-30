@@ -6,7 +6,7 @@
 <text x="32" y="50" font-size="24" font-weight="700" fill="#e6edf3">agentic-harness</text>
 <circle cx="480" cy="43" r="6" fill="#f1e05a"/><text x="568" y="48" font-size="14" fill="#c9d1d9" text-anchor="end">JavaScript</text>
 <text x="32" y="92" font-size="15" fill="#8b949e">Plug-and-play catalogue of Claude Code packs: skills, agents,</text><text x="32" y="116" font-size="15" fill="#8b949e">workflows, hooks and mods. Enable only what a project needs.</text>
-<text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 1  ·  updated 7d ago</text>
+<text x="568" y="176" font-size="13" fill="#8b949e" text-anchor="end">★ 1  ·  updated 8d ago</text>
 </g>
 <rect x="32" y="160" width="109" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="86" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">agent-skills</text><rect x="148.8" y="160" width="87" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="192" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">ai-agents</text><rect x="243.40000000000003" y="160" width="101" height="22" rx="11" fill="#38bdf8" fill-opacity=".1"/><text x="294" y="175" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7dd3fc" text-anchor="middle">claude-code</text>
 </svg>
